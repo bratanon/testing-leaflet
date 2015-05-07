@@ -1,0 +1,18 @@
+{
+  "name": "testing-leaflet",
+  "version": "0.0.0",
+  "authors": [
+    "Emil Stjerneman <emil@stjerneman.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leaflet": "~0.7.3"
+  }
+}
