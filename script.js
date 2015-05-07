@@ -9,8 +9,13 @@
     }).addTo(map);
 
 
+    var homePopup = L.popup().setContent("Home sweet home");
+
     var homeMarker = L.marker([57.6196, 11.8916]).addTo(map);
 
-    homeMarker.bindPopup("Home sweat home");
+    homeMarker.bindPopup(homePopup, {
+        keepInView: true,
+        offset: L.point(0, -30)
+    });
 
 })(window, document);
